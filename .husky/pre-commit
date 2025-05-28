@@ -1,0 +1,3 @@
+bun run format:ci
+bun --bun run lint:ci
+bun run typecheck

@@ -1,2 +1,3 @@
-# node-template
+# Node Template
+
 Node repository template.

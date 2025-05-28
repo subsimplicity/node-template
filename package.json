@@ -1,0 +1,41 @@
+{
+  "name": "node-template",
+  "version": "0.1.0",
+  "description": "Node repository template",
+  "type": "module",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "format": "prettier --write .",
+    "format:ci": "prettier --check .",
+    "lint": "eslint --fix .",
+    "lint:ci": "eslint .",
+    "postinstall": "husky",
+    "typecheck": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@subsimplicity/eslint-config-subsimplicity": "^1.2.1",
+    "@types/bun": "latest",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3",
+    "tslib": "^2.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subsimplicity/node-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subsimplicity/node-template/issues"
+  },
+  "homepage": "https://github.com/subsimplicity/node-template#readme"
+}
